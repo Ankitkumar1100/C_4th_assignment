@@ -11,9 +11,9 @@ int main() {
    //Using do while statement to print the fibonacci series.
    do {
       printf("%d ", num1); //Printing the cirrent value of num1 using printf statement.
-      nextdigit = num1 + num2; //Adding num1 and num2 and storing it in nextTerm.
+      nextdigit = num1 + num2; //Adding num1 and num2 and storing it in nextdigit.
       num1 = num2;   //The values of num1 and num2 is updated num1 is assigned the value of num2.
-      num2 = nextdigit;  //numè is assigned the value of nextTerm.
+      num2 = nextdigit;  //numè is assigned the value of nextdigit.
       n--;  //This loop also decreases the value of n by 1 with each cycle busing n--.
    } while(n > 0);   //Keep looping until n > 0.
 
